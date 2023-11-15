@@ -6,7 +6,7 @@
 
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // [UIColor swizzleColorMethods];
+  [UIColor swizzleColorMethods];
 
   self.moduleName = @"TmpReactNativeP3ColorSpace";
   // You can add your custom initial props in the dictionary below.
